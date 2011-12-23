@@ -1,0 +1,105 @@
+/*
+   admin.css
+   surf
+   
+   Created by Craig Hoover on 2010-07-28.
+   Copyright 2010 __MyCompanyName__. All rights reserved.
+*/
+
+body{margin:0;padding:0;font-family:Arial,sans-serif;font-size:12px}
+a{color:#0360a5}
+
+header{display:block;font-size:16px;background:#0360a5;color:#FFF;font-weight:bold;padding:5px 10px;border-radius:5px;-moz-border-radius:5px;margin:10px}
+
+/* 
+	@group message 
+	the styles for the flash message that appears
+*/
+.scaffolded_message {border:2px solid #DFDFDF;background:#FFFFCC;padding:10px;text-align:center;font-weight:bold;margin:10px}
+/* @end */
+
+
+/* 
+	@group form 
+	the default styles for the generated form
+*/
+.scaffolded_form {margin:10px}
+.scaffolded_form label{display:block;margin-top:8px}
+.scaffolded_form label.checkbox{display:inline}
+.scaffolded_form .scaffolded_field {padding-bottom:10px}
+/* @end */
+
+/*
+	@group buttons
+	the buttons that show up for submitting a form
+*/
+.scaffolded_buttons{margin:10px 0 25px 0}
+.scaffolded_buttons input{cursor:pointer;margin-right:15px;font-size:11px;font-weight:bold;background-color:#CCC;border:1px inset #CCC;padding:5px 10px;border-radius:6px;-moz-border-radius:6px;text-decoration:none;color:#777;}
+.scaffolded_buttons input:hover{background:#666;color:#FFF}
+/* @end */
+
+/*
+	@group records
+	the list of records that appear when you select a table to edit
+*/
+.scaffolded_records{margin:10px;}
+.scaffolded_records table{width:100%;border-collapse:separate;}
+.scaffolded_records table tbody tr.odd{background-color:#EEE}
+.scaffolded_records table th, .scaffolded_records table td{padding:5px;font-size:12px}
+.scaffolded_records table td{border:1px solid #CCC;}
+.scaffolded_records table th {background-color:#0360a5;color:#FFF;border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;color:#FFF}
+.scaffolded_records table th.sorted{background-color:#66a2cf}
+.scaffolded_records table th a{color:#FFF;text-decoration:none}
+.scaffolded_records table th a:hover{color:#EEE}
+.scaffolded_records table td.action{text-align:center;width:5%}
+.scaffolded_records table td.created_on, .scaffolded_records table td.updated_on{text-align:right}
+.scaffolded_records table tbody tr:hover{-moz-user-select:none;-webkit-user-select:none;background-color:#FFFCDF}
+/* @end */
+
+/*
+	@group list
+	the list of tables and functions for each table
+*/
+.scaffolded_list ul{list-style-type:none;margin:10px 10px;padding:0}
+.scaffolded_list > ul > li {color:#FFF;font-weight:bold;background-color:#AFAFAF;border-radius:5px;-moz-border-radius:5px;padding:10px;margin-bottom:10px}
+.scaffolded_list > ul > li > .table_name {display:inline-block;width:125px}
+.scaffolded_list > ul > li > ul{display:inline;}
+.scaffolded_list > ul > li > ul > li{display:inline;margin-right:10px}
+.scaffolded_list > ul > li > ul > li a{font-size:11px;background-color:#CCC;border:1px inset #CCC;padding:3px 10px 2px 10px;border-radius:6px;-moz-border-radius:6px;text-decoration:none;color:#777;}
+.scaffolded_list > ul > li > ul > li a:hover{background-color:#777;color:#FFF;border-style:solid}
+/* @end */
+
+
+/*
+	@group back button
+	the back button et-al
+*/
+.scaffolded_back a{font-size:11px;font-weight:bold;background-color:#CCC;border:1px inset #CCC;padding:5px 10px;border-radius:6px;-moz-border-radius:6px;text-decoration:none;color:#777;}
+.scaffolded_back a:hover{background-color:#777;color:#FFF;border-style:solid}
+/* @end */
+
+
+/*
+	@group pagination
+	pagination numbers
+*/
+.scaffolded_pagination{margin:10px;text-align:right}
+.scaffolded_pagination strong, .scaffolded_pagination a{padding:1px 6px;border-radius:6px;-moz-border-radius:6px;}
+.scaffolded_pagination a {background:#DFDFDF;color:#333;text-decoration:none}
+.scaffolded_pagination a:hover{background:#666;color:#FFF}
+/* @end */
+
+/* 
+	@group custom for articles
+	custom column widths for articles listing table
+*/
+.articles table th.name{width:35%}
+.articles table th.active{width:5%}
+.articles table td.active{text-align:center}
+.articles table th.language{text-align:center;width:5%}
+.articles table td.language{text-align:center;width:5%}
+.articles table th.created_on{width:15%}
+.articles table th.updated_on{width:15%}
+/* @end */
+
+

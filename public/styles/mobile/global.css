@@ -1,0 +1,8 @@
+@import url('../clearfix.css');
+
+body{margin:0;padding:0;background:#151515;font:normal 15px/17px Arial,sans-serif;color:#000;-webkit-text-size-adjust:none}
+body.ltr{direction:ltr;}
+body.rtl{direction:rtl;}
+img{border:none}
+
+p.note {border:2px solid #CCC;padding:10px;background:#FFFFEB}

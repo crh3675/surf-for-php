@@ -1,0 +1,36 @@
+@import url('clearfix.css');
+
+/* @group core defs */
+html{height:100%}
+body{background-color:#0360a5;margin:0;padding:0;height:100%;font:normal 12px/17px Arial,sans-serif;}
+body.ltr{direction:ltr;}
+body.rtl{direction:rtl;}
+
+section{display:block}
+
+a{outline:none;color:#CF192D;text-decoration:none}
+a:visited{color:#CF192D}
+a:hover{text-decoration:underline;color:#CF192D}
+img{border:none}
+h1{font:bold 19px/21px Verdana,Arial,Helvetica,sans-serif;margin:8px 0}
+h2{font:bold 15px/21px Verdana,Arial,Helvetica,sans-serif;margin:8px 0}
+h3{margin:0;color:#CF192D;font:bold 13px/17px 'Trebuchet MS',Verdana,Arial,Helvetica,sans-serif;}
+/* @end */
+
+p.note {border:2px solid #CCC;padding:10px;background:#FFFFEB}
+
+#scalable{overflow:hidden;position:absolute;top:0;left:0;z-index:1}
+#scalable img{width:100%;height:auto}
+
+#container{position:relative;z-index:2;}
+#home{margin:0 auto;padding-top:100px;width:700px;}
+
+#logo{float:left;margin:0;width:251px;height:256px;}
+#logo a{display:block;background:url('/images/surf.png') no-repeat;width:251px;height:256px;text-indent:-666em;outline:none}
+#tagline{float:left;background:url('/images/bringfun.png') no-repeat;margin:0;text-indent:-666em;width:384px;height:83px;}
+
+#points{float:left;width:385px}
+#points ul{list-style-type:none;margin:0 auto;padding:0;width:385px}
+#points ul li{height:20px;margin-bottom:25px}
+#points ul li a{display:block;background-color:#064770;-moz-text-shadow: 0px 0px 8px #000;-webkit-text-shadow:2px 2px 7px #111;text-shadow:0px 0px 8px #000;text-align:center;padding:5px;border-radius:10px;-moz-border-radius:10px;height:20px;font:normal 16px/20px 'Trebuchet MS',Arial,sans-serif;color:#FFF}
+#points ul li a:hover{background-color:#ABD916;text-decoration:none;}
